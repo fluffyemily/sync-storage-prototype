@@ -25,6 +25,8 @@ use rusqlite::{
 
 use ffi_utils::strings::c_char_to_string;
 
+//TODO replace SQLite with Mentat
+
 #[derive(Debug)]
 #[repr(C)]
 pub struct Store {
